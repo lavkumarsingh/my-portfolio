@@ -16,7 +16,7 @@ function About() {
                         work.”</i></p>
                 </div>
 
-                <div className="skills">
+                <div className="skills__section">
                     <h1>My skills</h1>
                     
                     <div className="">
