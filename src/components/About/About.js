@@ -20,7 +20,6 @@ function About() {
                     <h1>My skills</h1>
                     
                     <div className="">
-                        <h3></h3>
                     <div className="skill__icons">
                         <img src="https://hackr.io/tutorials/solidity/logo-solidity.svg?ver=1553831680" alt="" />
                         <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" alt="" />
