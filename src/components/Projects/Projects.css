@@ -1,0 +1,42 @@
+.project__container {
+    margin: 0 8vw;
+}
+
+.project__heading {
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+
+.project__heading > h1 {
+    font-size: 40px;
+    color: var(--active);
+    margin-top: 20px;
+}
+
+.project {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 700px) {
+    .project__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project__heading > h1 {
+        font-size: 32px;
+    }
+
+    .project {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

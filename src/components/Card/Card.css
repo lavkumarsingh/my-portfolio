@@ -1,0 +1,49 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212124;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow:  2px 2px 20px #121213;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.card > img {
+    width: auto;
+    height: 260px;
+}
+
+.card > h1 {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+
+
+.skill__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.skill__card > img {
+    width: auto;
+    height: 80px;
+}
+

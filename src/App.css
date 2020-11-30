@@ -1,0 +1,194 @@
+
+.view {
+  display: flex;
+  height: 100vh;
+  font-family: Tw Cen Mt;
+}
+
+
+.container {
+  background-color: #2A2A2E;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+.icon {
+  display: none;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.nav__items--active {
+  color: black;
+}
+
+.nav__items {
+  text-decoration: none;
+  color: white;
+}
+
+.nav__item--active {
+  color: var(--active)
+}
+
+.side__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  width: 350px;
+  height: 100vh;
+}
+
+.logo {
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.logo > img {
+  width: 100px;
+  height: auto;
+  border-radius: 99px;
+}
+
+.nav_cotainer > ul {
+  list-style: none;
+}
+.nav_cotainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nav__routes {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social__handle {
+  width: 220px;
+  margin-bottom: 40px;
+  height: 60px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+
+.social_icons {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+  background: #212124;
+  box-shadow:  2px 2px 5px #121213, 
+               -2px -2px 5px #303035;
+  cursor: pointer;
+}
+
+
+.github {
+  width: 25px;
+  height: 25px;
+}
+
+.linkedin {
+  width: 35px;
+  height: 35px;
+}
+
+.upwork {
+  margin-top: 5px;
+  width: auto;
+  height: 18px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+  .side__nav {
+    position: absolute;
+    width: 40vw;
+    left: -40vw;
+    height: 100vh;
+    z-index: 5;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .nav__active {
+    left: 0vw !important;
+  }
+
+  .icon {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .logo {
+    margin-top: 40px;
+    overflow: hidden;
+  }
+
+  .social__handle {
+    width: 200px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .side__nav {
+    position: absolute;
+    width: 60vw;
+    left: -60vw;
+    height: 100vh;
+    z-index: 5;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .logo {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+
+  .social__handle {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .side__nav {
+    position: absolute;
+    width: 100vw;
+    left: -100vw;
+    height: 100vh;
+    z-index: 5;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .logo {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+
+  .social__handle {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}

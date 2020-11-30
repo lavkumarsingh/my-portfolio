@@ -1,0 +1,122 @@
+.contact__container {
+    margin: 0 8vw;
+}
+
+.contact__heading {
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+
+.contact__heading > h1 {
+    font-size: 40px;
+    color: var(--active);
+    margin-top: 20px;
+}
+
+.contact__area {
+    margin-top: 40px;
+}
+
+.contact {
+    display: flex;
+    margin-top: 100px;
+}
+
+.myContact {
+    width: 50%;
+    padding: 0 80px;
+}
+
+.myContact > p {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.contact__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact__link > img {
+    width: 28px;
+    height: auto;
+}
+
+.contact__link > p {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.contactMe {
+    width: 50%;
+}
+
+.contactMe > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    height: 45px;
+    border: none;
+    outline-style: none;
+    border-radius: 4px;
+    background-color: var(--primary);
+    margin: 10px 0;
+    color: var(--active);
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: Tw Cen Mt;
+}
+
+.text__area {
+    outline-style: none;
+    margin: 5px 0;
+    height: 150px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--primary);
+    color: var(--active);
+    padding: 20px 20px;
+    font-size: 18px;
+    font-family: Tw Cen Mt;
+}
+
+.hilight {
+    color: var(--active);
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .myContact {
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .contactMe {
+        margin: 60px 0;
+        width: 100%;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    .contact__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+  }

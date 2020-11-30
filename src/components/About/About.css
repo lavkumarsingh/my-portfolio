@@ -1,0 +1,56 @@
+.about__container {
+    margin: 0 8vw;
+}
+
+.about__heading {
+    color: var(--active);
+    margin-top: 40px;
+}
+
+.about__heading > h1 {
+    font-size: 40px;
+    color: var(--active);
+    margin-top: 20px;
+}
+
+.about__area {
+    margin-top: 40px;
+}
+
+.intro {
+    color: rgb(197, 197, 197);
+    font-size: 20px;
+    margin: 40px 10vw 0 0;
+}
+
+.skills {
+    color: rgb(230, 230, 230);
+    margin-top: 100px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill__icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill__icons > img {
+    margin: 80px 40px;
+    height: 80px;
+    width: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
