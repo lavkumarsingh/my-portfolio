@@ -24,13 +24,6 @@
     letter-spacing: 1px;
 }
 
-.rectangle__image {
-    display: block;
-    height: 10px;
-    width: 50px;
-    margin-bottom: 10px;
-}
-
 .greetings {
     font-size: 45px;
     letter-spacing: 1px;
@@ -46,7 +39,7 @@
     letter-spacing: 1px;
 }
 
-.skills {
+.skill__set {
     font-size: 45px;
     letter-spacing: 1px;
     color: var(--active);
@@ -79,10 +72,14 @@
     opacity: 0.4;
 }
 
+.sub__content {
+    color: var(--active) !important;
+}
+
 .lable > p {
     font-size: 14px;
     font-weight: 400;
-    color: var(--active);
+    color: var(--primary);
     opacity: 1 !important;
     position: absolute;
 }

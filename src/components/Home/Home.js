@@ -7,10 +7,9 @@ function Home() {
             <div className="heading__section">  
             <div className="heading"> 
                 <p>
-                    <img className="rectangle__image" src="rectangle.png" alt="" /> <br />
                     <span className="greetings">Hey there!</span> <br />
                     <span className="name">I'm Lav Singh</span> <br />
-                    <span><span className="state">Independent </span> <span className="skills">Web Developer</span></span>
+                    <span><span className="state">Independent </span> <span className="skill__set">Web Developer</span></span>
                 </p>         
 
                 <div className="">
